@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body,
+html,
+.wrap {
+  width: 100%;
+  height: 100%;
+  font-size: .32rem;
+  background: #eee;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap .header {
+  width: 100%;
+  height: .8rem;
+  background: #fff;
+}
+
+.wrap .header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap .header ul li {
+  display: flex;
+}
+
+.wrap .header ul li:nth-child(1) {
+  line-height: .8rem;
+  margin-left: .4rem;
+  font-size: .27rem;
+}
+
+.wrap .header ul li:nth-child(1) i {
+  margin-left: .1rem;
+  margin-top: .03rem;
+}
+
+.wrap .header ul li:nth-child(2) img {
+  width: 1.8rem;
+  height: .4rem;
+  margin-top: .2rem;
+}
+
+.wrap .header ul li:nth-child(3) {
+  margin-right: .4rem;
+  font-size: .27rem;
+}
+
+.wrap .header ul li:nth-child(3) dl {
+  margin-left: .1rem;
+  margin-top: .03rem;
+}
+
+.wrap .header ul li:nth-child(3) dl dt {
+  text-align: center;
+}
+
+.wrap .header ul li:nth-child(3) dl dd {
+  text-align: center;
+}
+
+.wrap .nav {
+  width: 100%;
+  height: 2.1rem;
+  margin-top: .05rem;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap .nav dl {
+  flex: 1;
+}
+
+.wrap .nav dl dt {
+  text-align: center;
+  margin-top: .2rem;
+}
+
+.wrap .nav dl dt img {
+  width: .8rem;
+  height: .8rem;
+  margin: 0 auto;
+}
+
+.wrap .nav dl dd {
+  text-align: center;
+}
+
+.wrap .nav dl dd h5 {
+  font-size: .35rem;
+}
+
+.wrap .nav dl dd span {
+  font-size: .25rem;
+}
+
+.wrap .section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap .section dl {
+  width: 25%;
+}

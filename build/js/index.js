@@ -1,0 +1,1 @@
+"use strict";$(function(){$.ajax({url:"/api/list",dataType:"json",success:function(o){if(1===o.code){console.log(o);var c="";o.data.data.forEach(function(o){c+="<li>"+o.title+"</li>"}),console.log(c)}},error:function(o){console.log(o)}})});
